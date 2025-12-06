@@ -1,0 +1,15 @@
+{
+    "modern-condo-short": {
+      "script": "Welcome to this bright Nimmanhaemin condo — a stylish two-bedroom retreat with an open-plan living area, a modern kitchen with quartz countertops, and a balcony with city views. The bedrooms are quietly separated for privacy, and the building places you steps away from cafes and nightlife. Ideal for urban professionals or investors looking for short-term rentals. Schedule a viewing today and experience city living at its best.",
+      "mp3": "modern-condo-short.mp3"
+    },
+    "family-house-medium": {
+      "script": "Step into this warm three-bedroom family home in Hang Dong, where a lush garden and shaded patio create an inviting outdoor living space. The large living room opens to a Thai-style kitchen perfect for family meals, while the bedrooms offer quiet comfort and garden views. Located close to international schools and with easy highway access, this property balances tranquility and convenience. Book a visit to see how this home fits your family’s lifestyle.",
+      "mp3": "family-house-medium.mp3"
+    },
+    "luxury-unit-long": {
+      "script": "Experience elevated living in this luxurious penthouse with sweeping mountain views. High ceilings and expansive windows fill the space with natural light, while a gourmet kitchen and premium finishes set the tone for sophisticated entertaining. Relax on the private terrace as the sunset paints the valley, or take advantage of top-tier building amenities. This residence offers both privacy and prestige — contact us for a private showing.",
+      "mp3": "luxury-unit-long.mp3"
+    }
+  }
+  

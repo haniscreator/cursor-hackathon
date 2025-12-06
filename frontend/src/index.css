@@ -1,0 +1,87 @@
+/* basic reset */
+* { box-sizing: border-box; }
+html,body,#root { height: 100%; margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #222; }
+
+/* layout */
+.app-root { min-height: 100vh; background: #f4f6f8; padding: 28px; display: flex; flex-direction: column; align-items: center; }
+.container { width: 100%; max-width: 880px; background: #fff; border-radius: 10px; box-shadow: 0 8px 20px rgba(20,30,40,0.08); padding: 20px; }
+
+/* headings */
+.title { font-size: 20px; font-weight: 700; margin: 0 0 12px 0; }
+
+/* form */
+.label { display: block; font-size: 13px; color: #444; margin-bottom: 6px; }
+.input { width: 100%; padding: 10px 12px; border: 1px solid #e1e6eb; border-radius: 8px; font-size: 14px; background: #fff; color: #111; }
+.textarea { min-height: 72px; resize: vertical; }
+.select { height: 40px; }
+
+/* layout helpers */
+.row { display: flex; gap: 12px; align-items: flex-end; margin-top: 12px; }
+.col { flex: 1; min-width: 120px; }
+.action-col { flex: 0 0 auto; }
+
+/* buttons */
+.btn { padding: 8px 14px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; font-size: 14px; }
+.btn:disabled { opacity: 0.6; cursor: default; }
+.primary { background: #2563eb; color: #fff; }
+.primary:hover { background: #1e4fd6; }
+.success { background: #16a34a; color: #fff; }
+.success:hover { background: #128a3d; }
+.neutral { background: #f3f4f6; color: #111; border: 1px solid #e6e8eb; }
+.link { margin-left: 12px; color: #2563eb; text-decoration: underline; }
+
+/* audio */
+.audio-player { width: 100%; margin-top: 8px; }
+
+/* meta */
+.meta { margin-top: 12px; font-size: 13px; color: #555; }
+.error { color: #b91c1c; margin-top: 8px; }
+
+/* footer */
+.footer { width: 100%; max-width: 880px; margin-top: 14px; color: #6b7280; font-size: 12px; text-align: left; }
+.block { margin-top: 12px; }
+.actions { margin-top: 12px; gap: 10px; display: flex; align-items: center; }
+
+/* Top navigation */
+.topbar { width: 100%; background: #0f1724; color: #fff; padding: 10px 0; box-shadow: 0 2px 8px rgba(10,10,10,0.05); }
+.topbar-inner { max-width: 880px; margin: 0 auto; display:flex; align-items:center; justify-content:space-between; padding: 0 14px;}
+.logo { font-weight:700; letter-spacing: 0.6px; }
+.nav { display:flex; gap:8px; }
+.nav-link { background: transparent; border: none; color: #cbd5e1; padding: 8px 12px; border-radius: 8px; cursor: pointer; font-weight:600; }
+.nav-link:hover { background: rgba(255,255,255,0.04); color: #fff; }
+.nav-link.active { background: #1f2937; color: #fff; }
+
+/* Comparator layout tweaks */
+.two-cols { display: flex; gap: 12px; }
+.two-cols > div { flex: 1; }
+.results-grid { display: flex; gap: 18px; margin-top: 14px; align-items: flex-start; }
+.results-left { flex: 1; }
+.results-right { width: 320px; flex: 0 0 320px; }
+
+.attributes-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.attributes-table th { text-align: left; padding: 8px 6px; font-weight:700; border-bottom: 1px solid #eee; }
+.attributes-table td { padding: 8px 6px; border-bottom: 1px solid #f3f4f6; vertical-align: top; }
+.attr-label { width: 160px; color: #444; font-weight:600; }
+.attr-val { color: #222; }
+
+/* recommendation banner */
+.recommendation-banner { padding: 10px 12px; border-radius: 8px; margin-top: 12px; color: #fff; font-weight:700; }
+.recommendation-banner.pick-a { background: linear-gradient(90deg,#059669,#10b981); }
+.recommendation-banner.pick-b { background: linear-gradient(90deg,#2563eb,#60a5fa); }
+.recommendation-banner.pick-none { background: #6b7280; }
+
+/* score bars */
+.score-block { background: #fbfdff; border: 1px solid #eef2ff; padding: 12px; border-radius: 8px; }
+.score-label { font-weight:700; color: #374151; margin-bottom: 6px; }
+.score-bar { height: 28px; background: #f3f4f6; border-radius: 6px; overflow: hidden; }
+.score-fill { height: 100%; background: linear-gradient(90deg,#2563eb,#06b6d4); color: #fff; display:flex; align-items:center; justify-content:center; font-weight:700; }
+
+/* debug */
+.debug { background: #0b1220; color: #d1fae5; padding: 10px; border-radius: 8px; margin-top: 12px; font-size: 12px; overflow: auto; max-height: 300px; }
+
+/* small responsive tweak */
+@media (max-width: 880px) {
+  .results-grid { flex-direction: column; }
+  .results-right { width: 100%; }
+  .two-cols { flex-direction: column; }
+}
