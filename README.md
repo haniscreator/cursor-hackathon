@@ -1,8 +1,7 @@
-# AI Virtual Tour 🎙️🏠
+# Cursor Hackathon 🎙️🏠
 
 A full-stack web application that generates AI-powered virtual tour scripts and converts them to speech with optional background music. Perfect for real estate listings, property tours, and promotional content creation.
 
-![AI Virtual Tour](https://img.shields.io/badge/AI-Virtual_Tour-blue)
 ![React](https://img.shields.io/badge/React-19.2.0-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
